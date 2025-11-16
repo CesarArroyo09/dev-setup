@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "One Dark Pro Night Flat",
+    "workbench.tree.indent": 20,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.size": "proportional",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 15000,
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "smooth",
+    "editor.rulers": [
+        {
+            "column": 75,
+            "color": "#404040"
+        },
+        {
+            "column": 88,
+            "color": "#606060"
+        },
+        {
+            "column": 100,
+            "color": "#A0A0A090"
+        }
+    ],
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "gitlens.advanced.messages": {
+        "suppressCreatePullRequestPrompt": true
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "remote.autoForwardPortsSource": "hybrid"
+}
