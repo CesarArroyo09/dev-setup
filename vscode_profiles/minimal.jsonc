@@ -1,10 +1,24 @@
 {
+    // Whitespace hygiene
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    // Files behavior
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 15000,
+    "editor.formatOnSave": false,
+    // Indentation
+    "editor.detectIndentation": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    //Visuals
+    "editor.renderWhitespace": "selection",
+    "editor.guides.bracketPairs": true,
+    "editor.stickyScroll.enabled": true,
     "workbench.colorTheme": "One Dark Pro Night Flat",
     "workbench.tree.indent": 20,
     "editor.minimap.renderCharacters": false,
     "editor.minimap.size": "proportional",
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 15000,
     "editor.cursorStyle": "line",
     "editor.cursorBlinking": "smooth",
     "editor.rulers": [
@@ -21,6 +35,9 @@
             "color": "#A0A0A090"
         }
     ],
+    // "explorer.autoReveal": false,  Avoid showing a preview of the file when clicking it in the explorer
+    // Misc
+    "search.useIgnoreFiles": true,
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "gitlens.advanced.messages": {
         "suppressCreatePullRequestPrompt": true
