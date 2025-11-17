@@ -1,0 +1,67 @@
+{
+    // Whitespace hygiene
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    // Files behavior
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 15000,
+    "editor.formatOnSave": false,
+    // Indentation
+    "editor.detectIndentation": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    //Visuals
+    "editor.renderWhitespace": "selection",
+    "editor.guides.bracketPairs": true,
+    "workbench.editor.splitInGroupLayout": "vertical",
+    "workbench.colorTheme": "One Dark Pro Night Flat",
+    "workbench.tree.indent": 20,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorStyle": "line",
+    "editor.rulers": [
+        {
+            "column": 75,
+            "color": "#404040"
+        },
+        {
+            "column": 88,
+            "color": "#606060"
+        },
+        {
+            "column": 100,
+            "color": "#A0A0A090"
+        }
+    ],
+    // Navigation
+    "editor.stickyScroll.enabled": true,
+    "editor.smoothScrolling": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.size": "proportional",
+    // "explorer.autoReveal": false,  Avoid showing a preview of the file when clicking it in the explorer
+    // Jupyter / notebooks: format + organize imports (Ruff-backed)
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    // Python-specific: Ruff as formatter + import organizer
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true
+    },
+    "ruff.organizeImports": true,
+    // Misc
+    "search.useIgnoreFiles": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "gitlens.advanced.messages": {
+        "suppressCreatePullRequestPrompt": true
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "remote.autoForwardPortsSource": "hybrid"
+}
